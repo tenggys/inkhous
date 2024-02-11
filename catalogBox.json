@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "author": "Марсель Руссо",
+        "name": "Охота Амура",
+        "note": "Холст, масло (50х80)",
+        "price": "14 500 руб",
+        "img": "./img/catalog/France/France1.jpg",
+        "alt": "img",
+        "tag": "France",
+        "btn": "В корзину"
+    },
+    {
+        "id": 2,
+        "author": "Анри Селин",
+        "name": "Дама с собачкой",
+        "note": "Акрил, бумага (50х80)",
+        "price": "16 500 руб",
+        "img": "./img/catalog/France/France2.jpg",
+        "alt": "img",
+        "tag": "France",
+        "btn": "В корзину"
+    },
+    {
+        "id": 3,
+        "author": "Франсуа Дюпон",
+        "name": "Процедура",
+        "note": "Цветная литография (40х60)",
+        "price": "20 000 руб",
+        "img": "./img/catalog/France/France3.jpg",
+        "alt": "img",
+        "tag": "France",
+        "btn": "В корзину"
+    },
+    {
+        "id": 4,
+        "author": "Луи Детуш",
+        "name": "Роза",
+        "note": "Бумага, акрил (50х80)",
+        "price": "12 000 руб",
+        "img": "./img/catalog/France/France4.jpg",
+        "alt": "img",
+        "tag": "France",
+        "btn": "В корзину"
+    },
+    {
+        "id": 5,
+        "author": "Франсуа Дюпон",
+        "name": "Птичья трапеза",
+        "note": "Цветная литография (40х60)",
+        "price": "22 500 руб",
+        "img": "./img/catalog/France/France5.jpg",
+        "alt": "img",
+        "tag": "France",
+        "btn": "В корзину"
+    },
+    {
+        "id": 6,
+        "author": "Пьер Моранж",
+        "name": "Пейзаж с рыбой",
+        "note": "Цветная литография (40х60) ",
+        "price": "20 000 руб",
+        "img": "./img/catalog/France/France6.jpg",
+        "alt": "img",
+        "tag": "France",
+        "btn": "В корзину"
+    }
+]
