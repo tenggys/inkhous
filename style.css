@@ -198,6 +198,11 @@ a {
   transition-duration: 0.5s;
 }
 
+.active {
+  background: #376B44;
+  color: #F4F6F5;
+}
+
 .news {
   padding-top: 70px;
   padding-bottom: 70px;

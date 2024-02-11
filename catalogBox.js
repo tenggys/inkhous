@@ -1,3 +1,18 @@
+const btnActiveFrance = document.querySelector('#btn-france');
+
+btnActiveFrance.classList.add('active');
+
+const btnActive = document.querySelectorAll('.catalog__top_box button');
+
+btnActive.forEach(item => {
+    item.addEventListener('click', () => {
+        btnActive.forEach(e => {
+            e.classList.remove('active');
+        })
+        item.classList.add('active');
+    })
+})
+
 const catalogBox = document.querySelector("#catalog-box");
 
 getCatalog();
@@ -24,3 +39,8 @@ function renderBlog(catalogArray) {
         catalogBox.insertAdjacentHTML('beforeend', catalogHTML)
     });
 };
+
+
+
+
+

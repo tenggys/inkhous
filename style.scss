@@ -195,6 +195,11 @@ a {
     }
 }
 
+.active {
+    background: $backGreen;
+    color: $whiteText;
+}
+
 .news {
     padding-top: 70px;
     padding-bottom: 70px;

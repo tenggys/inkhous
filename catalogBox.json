@@ -64,5 +64,137 @@
         "alt": "img",
         "tag": "France",
         "btn": "В корзину"
+    },
+    {
+        "id": 1,
+        "author": "Курт Вернер",
+        "name": "Над городом",
+        "note": "Цветная литография (40х60)",
+        "price": "16 000 руб",
+        "img": "./img/catalog/Germany/Germany1.jpg",
+        "alt": "img",
+        "tag": "Germany",
+        "btn": "В корзину"
+    },
+    {
+        "id": 2,
+        "author": "Макс Рихтер",
+        "name": "Птенцы",
+        "note": "Холст, масло (50х80) ",
+        "price": "14 500 руб",
+        "img": "./img/catalog/Germany/Germany2.jpg",
+        "alt": "img",
+        "tag": "Germany",
+        "btn": "В корзину"
+    },
+    {
+        "id": 3,
+        "author": "Мартин Майер",
+        "name": "Среди листьев",
+        "note": "Цветная литография (40х60)",
+        "price": "20 000 руб",
+        "img": "./img/catalog/Germany/Germany3.jpg",
+        "alt": "img",
+        "tag": "Germany",
+        "btn": "В корзину"
+    },
+    {
+        "id": 4,
+        "author": "Герман Беккер",
+        "name": "Яркая птица",
+        "note": "Цветная литография (40х60)",
+        "price": "13 000 руб",
+        "img": "./img/catalog/Germany/Germany4.jpg",
+        "alt": "img",
+        "tag": "Germany",
+        "btn": "В корзину"
+    },
+    {
+        "id": 5,
+        "author": "Вульф Бауэр",
+        "name": "Дятлы",
+        "note": "Бумага, акрил (50х80)",
+        "price": "20 000 руб",
+        "img": "./img/catalog/Germany/Germany5.jpg",
+        "alt": "img",
+        "tag": "Germany",
+        "btn": "В корзину"
+    },
+    {
+        "id": 6,
+        "author": "Вальтер Хартманн",
+        "name": "Большие воды",
+        "note": "Бумага, акрил (50х80)",
+        "price": "23 000 рубб",
+        "img": "./img/catalog/Germany/Germany6.jpg",
+        "alt": "img",
+        "tag": "Germany",
+        "btn": "В корзину"
+    },
+    {
+        "id": 1,
+        "author": "Пол Смит",
+        "name": "Дикий зверь",
+        "note": "Акварель, бумага (50х80)",
+        "price": "19 500 руб",
+        "img": "./img/catalog/England/England1.jpg",
+        "alt": "img",
+        "tag": "England",
+        "btn": "В корзину"
+    },
+    {
+        "id": 2,
+        "author": "Джон Уайт",
+        "name": "Скалистый берег",
+        "note": "Цветная литография (40х60) ",
+        "price": "17 500 руб",
+        "img": "./img/catalog/England/England2.jpg",
+        "alt": "img",
+        "tag": "England",
+        "btn": "В корзину"
+    },
+    {
+        "id": 3,
+        "author": "Джим Уотсон",
+        "name": "Река и горы",
+        "note": "Акварель, бумага (50х80)",
+        "price": "20 500 руб",
+        "img": "./img/catalog/England/England3.jpg",
+        "alt": "img",
+        "tag": "England",
+        "btn": "В корзину"
+    },
+    {
+        "id": 4,
+        "author": "Юджин Зиллион",
+        "name": "Белый попугай",
+        "note": "Цветная литография (40х60) ",
+        "price": "15 500 руб",
+        "img": "./img/catalog/England/England4.jpg",
+        "alt": "img",
+        "tag": "England",
+        "btn": "В корзину"
+    },
+    {
+        "id": 5,
+        "author": "Эрик Гиллман",
+        "name": "Ночная рыба",
+        "note": "Бумага, акрил (50х80) ",
+        "price": "12 500 руб",
+        "img": "./img/catalog/England/England5.jpg",
+        "alt": "img",
+        "tag": "England",
+        "btn": "В корзину"
+    },
+    {
+        "id": 6,
+        "author": "Альфред Барр",
+        "name": "Рыжий кот",
+        "note": "Цветная литография (40х60)",
+        "price": "21 000 руб",
+        "img": "./img/catalog/England/England6.jpg",
+        "alt": "img",
+        "tag": "England",
+        "btn": "В корзину"
     }
 ]
