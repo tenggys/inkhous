@@ -1,46 +1,36 @@
-const btnActiveFrance = document.querySelector('#btn-france');
+const catalogEl = document.querySelector('#catalog-box');
+let catalogArr = [];
 
-btnActiveFrance.classList.add('active');
+const buttons = document.querySelectorAll('button[data-country]');
+buttons.forEach(n => n.addEventListener('click', onClick));
 
-const btnActive = document.querySelectorAll('.catalog__top_box button');
-
-btnActive.forEach(item => {
-    item.addEventListener('click', () => {
-        btnActive.forEach(e => {
-            e.classList.remove('active');
-        })
-        item.classList.add('active');
-    })
-})
-
-const catalogBox = document.querySelector("#catalog-box");
-
-getCatalog();
-
-async function getCatalog() {
-    const response = await fetch('catalogBox.json');
-    const catalogArray = await response.json();
-
-    renderBlog(catalogArray);
+function onClick({ target: t }) {
+  buttons.forEach(n => n.classList.toggle('active', n === t));
+  renderCatalog(t.dataset.country);
 }
 
-function renderBlog(catalogArray) {
-    catalogArray.forEach(function (item) {
-        const catalogHTML = `
-            <div class="catalog__card" id="${item.id}">
-                <img src="${item.img}" alt="${item.alt}" class="catalog__card_img">
-                <p class="catalog__card_author">${item.author}</p>
-                <p class="catalog__card_name">${item.name}</p>
-                <p class="catalog__card_note">${item.note}</p>
-                <p class="catalog__card_price">${item.price}</p>
-                <button class="catalog__card_btn">${item.btn}</button>
-            </div>
-        `;
-        catalogBox.insertAdjacentHTML('beforeend', catalogHTML)
-    });
-};
+function renderCatalog(country) {
+  const toRender = country
+    ? catalogArr.filter(n => n.tag === country)
+    : catalogArr;
 
+  catalogEl.innerHTML = toRender
+    .map(n => `
+      <div class="catalog__card" id="${n.id}" data-counter="${n.counter}"
+      data-name="${n.name}" data-price="${n.price}">
+        <img src="${n.img}" alt="${n.alt}" class="catalog__card_img">
+        <p class="catalog__card_author">${n.author}</p>
+        <p class="catalog__card_name">${n.name}</p>
+        <p class="catalog__card_note">${n.note}</p>
+        <p class="catalog__card_price">${n.price}</p>
+        <button class="catalog__card_btn">${n.btn}</button>
+      </div>`)
+    .join('');
+}
 
-
-
-
+fetch('catalogBox.json')
+  .then(r => r.json())
+  .then(r => {
+    catalogArr = r;
+    buttons[0].click();
+});
